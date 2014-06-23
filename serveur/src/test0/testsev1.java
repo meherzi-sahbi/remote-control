@@ -12,7 +12,7 @@ public class testsev1 {
 	 private JFrame frame = new JFrame();
 	 private JDesktopPane jdesktop = new JDesktopPane();
 	 public static void main(String args[]){
-	        String port = JOptionPane.showInputDialog("svp entrez le port :");
+	        String port = JOptionPane.showInputDialog("Svp entrez le port :");
 	        new testsev1().debut(Integer.parseInt(port));
 	    }
 	 
